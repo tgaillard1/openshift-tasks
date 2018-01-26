@@ -27,7 +27,7 @@ public class UserResource {
     public List<User> getUsers() {
     	List<User> users = userDao.getAll();
     	
-//		TODO: Uncomment to sort users based on number of tasks
+//		TODO: Uncomment to sort users based on number of tasks - test
 
     	Collections.sort(users, new Comparator<User>() {
 
